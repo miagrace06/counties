@@ -8,7 +8,8 @@ using namespace std;
 
 class CountyMap {
 	private:
-		///put stuff here
+vector<County> counties;
+vector<unordered_set<int>> adjacency;
 	public:
 		//constructor
 		//performance: O(n^2), n = number of counties
